@@ -1,0 +1,45 @@
+company_id,title,description
+1,Engineer,An entry-level engineer
+1,Actuary,An actuary internship
+1,Mechanical Engineer,Designing mechanical systems
+1,Data Analyst,Analyzing datasets
+2,Lawyer,A senior attorney
+2,Paralegal,Assisting lawyers with case preparation
+2,Corporate Lawyer,Handling corporate legal matters
+3,Developer,A senior staff engineer
+3,Janitor,Cleaning up the building
+3,UX Designer,Designing user experiences
+3,DevOps Engineer,Managing development operations
+4,Data Scientist,Researching trends
+4,Data Engineer,Building data pipelines
+4,Machine Learning Engineer,Developing ML models
+5,Professor,Teaching courses
+5,Research Assistant,Assisting in academic research
+5,Lab Technician,Maintaining laboratory equipment
+6,Product Manager,Leading product teams
+6,UX Researcher,Conducting user research
+6,Marketing Specialist,Developing marketing strategies
+7,AI Engineer,Building AI systems
+7,AI Researcher,Exploring new AI techniques
+7,NLP Engineer,Working on natural language processing models
+8,Research Scientist,Developing innovative solutions
+8,Lab Manager,Overseeing lab operations
+8,Pharmacologist,Developing pharmaceutical treatments
+9,Financial Analyst,Analyzing financial trends
+9,Investment Banker,Managing investment portfolios
+9,Accountant,Overseeing financial accounts
+10,CFO,Managing company finances
+10,Financial Controller,Overseeing accounting operations
+10,Treasury Analyst,Managing cash flow and investments
+11,Logistics Specialist,Coordinating transportation
+11,Supply Chain Analyst,Optimizing supply chain processes
+11,Warehouse Manager,Managing warehouse operations
+12,VR Developer,Building virtual reality experiences
+12,3D Artist,Designing 3D assets for VR
+12,Game Designer,Creating VR game mechanics
+13,Test Pilot,Testing aerospace vehicles
+13,Aerospace Engineer,Designing aerospace technologies
+13,Flight Engineer,Monitoring in-flight systems
+14,Neurosurgeon,Performing advanced brain surgeries
+14,Neurologist,Treating neurological disorders
+14,Orthopedic Surgeon,Specializing in bone surgeries

@@ -1,6 +1,6 @@
 {
     "python.analysis.typeCheckingMode": "basic",
-    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoImportCompletions": false,
     "[python]": {
         "editor.semanticHighlighting.enabled": true
     },
@@ -27,5 +27,10 @@
     },
     "python.analysis.extraPaths": [
         "./App"
-    ]
+    ],
+    "markdown-preview-enhanced.previewColorScheme": "selectedPreviewTheme",
+    "black-formatter.args": [
+        "--line-length",
+        "100"
+    ],
 }
