@@ -8,11 +8,9 @@ class Job(db.Model):
     company_name: str = db.Column(db.String(100), nullable=False)
     title: str = db.Column(db.String(100), nullable=False)
     description: str = db.Column(db.String(100), nullable=False)
-    applicants: list[Application] = db.relationship("Application", backref="job")
+    applicants = db.relationship("Application", backref="job")
 
-    def __init__(
-        self, company_id: int, company_name: str, title: str, description: str
-    ) -> None:
+    def __init__(self, company_id: int, company_name: str, title: str, description: str) -> None:
         self.company_id = company_id
         self.company_name = company_name
         self.title = title
@@ -24,3 +22,6 @@ class Job(db.Model):
             f"Company ID: {self.company_id}, "
             f"Description: {self.description}>"
         )
+
+    def to_json(self) -> dict:
+        return {**self.__dict__, "applicants": [applicant.id for applicant in self.applicants]}

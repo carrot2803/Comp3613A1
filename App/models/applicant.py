@@ -1,4 +1,5 @@
 from App.database import db
+from .application import Application
 
 
 class Applicant(db.Model):
@@ -19,3 +20,6 @@ class Applicant(db.Model):
         return "{} {} {} {} {}".format(
             self.id, self.first_name, self.last_name, self.education, self.skills
         )
+
+    def to_json(self) -> dict:
+        return {**self.__dict__, "jobs_applied": [job.id for job in self.jobs_applied]}

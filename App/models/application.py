@@ -12,3 +12,6 @@ class Application(db.Model):
 
     def __repr__(self) -> str:
         return f"Application(id={self.id}, job_id={self.job_id}, applicant_id={self.applicant_id})"
+
+    def to_json(self) -> dict:
+        return {**self.__dict__}
